@@ -42,6 +42,7 @@ dotnet test
 | GET    | `/pedidos/{id}`                                               | Retorna pedido completo com itens      |
 | GET    | `/pedidos?status=Pago&pagina=1&tamanhoPagina=10`              | Lista pedidos paginados (filtro opcional) |
 | PUT    | `/pedidos/{id}/cancelar`                                      | Cancela um pedido                      |
+| PUT    | `/pedidos/{id}/pagar`       |  Paga um pedido
 
 ### Paginação
 
